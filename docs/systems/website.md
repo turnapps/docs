@@ -6,7 +6,7 @@ Custom Web Stack
 - Language & Logic: Built using PHP and structured SQL for robust data management and fast response times.
 - Database Management: Optimized relational databases designed to handle forum threads, user authentication, and project metadata with minimal latency.
 - Server Environment: Hosted on environment-specific configurations to ensure 24/7 availability for TurnEdit 2.0 installers and documentation.
-- Hosting: We are using "Shin Cloud for Free" and Github Pages, it is provided by XServer.
+- Hosting: We are using "Shin Cloud for Free" and Github Pages, it is provided by XServer and GitHub.
 ## 🛡 Security & Integrity
 Security is not an afterthought at TurnApps; it is integrated into the system's DNA.
 1. Data Integrity
