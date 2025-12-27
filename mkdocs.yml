@@ -35,6 +35,7 @@ plugins:
 
 nav:
   - Home: index.md
+  - Terms of Service: tos.md
   - TurnEdit:
       - Overview: turnedit/index.md
       - Getting Started:
