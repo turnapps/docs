@@ -3,6 +3,8 @@ site_url: https://docs.turnapps.f5.si
 
 theme:
   name: material
+  logo: cropped-turnapps-favicon.png
+  favicon: cropped-turnapps-favicon.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
