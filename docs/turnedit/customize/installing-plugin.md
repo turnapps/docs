@@ -17,8 +17,9 @@ TurnEdit/
 ├── plugins/ (Place DLLs here)  
 └── checksums/ (Place TXT files here)  
 ## 03.Deploy Files
-Move the extracted files to their respective directories. **The checksum file must match the plugin's filename**.
-| Original File | Destination & Renaming |
+Move the extracted files to their respective directories. **The checksum file must match the plugin's filename**.  
+
+| Original File | Destination and Renaming |
 | --- | --- |
 | `Example.dll` | `/plugins/Example.dll` |
 | `sha256.txt` | `/checksums/Example-sha256.txt` |
