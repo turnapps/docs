@@ -1,0 +1,51 @@
+site_name: TurnApps documentation
+site_url: https://docs.turnapps.f5.si
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  features:
+    - navigation.tabs
+    - search.highlight
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: index.md
+  - TurnEdit:
+      - Overview: turnedit/index.md
+      - Getting Started:
+          - Installing or Upgrading: turnedit/getting-started/installing-or-upgrading.md
+          - Minimum System Requirements: turnedit/getting-started/minimum-system-requirements.md
+      - Basic usage:
+          - Insert date: turnedit/basic-usage/insert-date.md
+          - Opening file: turnedit/basic-usage/opening-file.md
+          - Saving file: turnedit/basic-usage/saving-file.md
+          - Search or Replace: turnedit/basic-usage/search-or-replace.md
+          - Selection: turnedit/basic-usage/selection.md
+      - Customize:
+          - Edit Settings JSON directly: turnedit/customize/edit-settings-json-directly.md
+          - Installing plugin: turnedit/customize/installing-plugin.md
+      - Troubleshooting:
+          - How to fix settings load errors: turnedit/troubleshooting/how-to-fix-settings-load-errors.md
