@@ -1,0 +1,16 @@
+name: Deploy documentation
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: 3.15
+      - run: pip install mkdocs-material
+      - run: pip install mkdocs-minify-plugin
+      - run: mkdocs gh-deploy --force
