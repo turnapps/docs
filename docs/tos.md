@@ -13,6 +13,7 @@
 
 ## 3. Prohibited Activities
 You are prohibited from engaging in any of the following or similar actions:
+
 - Violating the GPL (General Public License).
 - Using someone else's account without permission.
 - Disclosing personal information of others.
@@ -29,6 +30,7 @@ You are prohibited from engaging in any of the following or similar actions:
 - Logging in as an administrator without explicit authorization.
 - Harassment, stalking, or any form of cyberbullying.
 - Posting spam, repetitive content, or low-quality automated posts on the forum.
+
 
 ## 4. Official Domains and Security
 - **The only official domain for TurnApps is `turnapps.f5.si`.**
