@@ -1,4 +1,4 @@
-# TurnApps Terms of Use
+# TurnApps Terms of Service
 
 ## 1. Introduction
 - These Terms constitute a contract between you and TurnApps and apply to all services and software provided by TurnApps.
